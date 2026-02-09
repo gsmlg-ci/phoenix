@@ -6,11 +6,11 @@ on:
       elixir-version:
         required: true
         description: 'The version of the elixir'
-        default: '1.18.4'
+        default: '1.19.5'
       phoenix-version:
         required: true
         description: 'The version of the phoenix'
-        default: '1.7.21'
+        default: '1.8.3'
 
 jobs:
   build-image:
