@@ -14,6 +14,8 @@ LABEL org.opencontainers.image.authors="Jonathan Gao <gsmlg.com@gmail.com>"
 LABEL org.opencontainers.image.description="Phoenix running on top of elixir"
 LABEL org.opencontainers.image.licenses=MIT
 
+LABEL org.opencontainers.image.source="https://github.com/gsmlg-ci/phoenix"
+
 LABEL ELIXIR_VERSION="${ELIXIR_VERSION}"
 LABEL PHOENIX_VERSION="${PHOENIX_VERSION}"
 
